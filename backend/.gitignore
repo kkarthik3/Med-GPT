@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.ipynb
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Database
+data/
+*.db
+
+# Uploaded files
+app/uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# FAISS indices
+data/faiss/
+
+# OS
+.DS_Store
+Thumbs.db

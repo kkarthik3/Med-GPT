@@ -1,0 +1,27 @@
+[project]
+name = "MedGPT"
+version = "0.1.0"
+description = "Medical Report Summarization & RAG Chatbot Backend"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "python-multipart>=0.0.9",
+    "sqlalchemy>=2.0.0",
+    "aiosqlite>=0.20.0",
+    "langchain>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-nvidia-ai-endpoints>=0.3.0",
+    "langchain-text-splitters>=0.3.0",
+    "litellm>=1.40.0",
+    "faiss-cpu>=1.8.0",
+    "rank-bm25>=0.2.2",
+    "pypdf>=4.0.0",
+    "python-docx>=1.1.0",
+    "openpyxl>=3.1.0",
+    "pandas>=2.2.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "aiofiles>=24.1.0",
+]
